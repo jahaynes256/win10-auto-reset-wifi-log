@@ -14,7 +14,8 @@ def wifiProperties(key):
     #It makes me laugh, but it works. Removes empty strings from list and the first line too.    
     lines = [line.strip() for line in lines if line][1::] 
     
-    "Group 1 is the Key and Group 4 is the Value"
+    #Group 1 is the Key and Group 4 is the Value
+    #Custom regex code, may work unusually
     regex = r"(\w*\s?\w*\s?\S*)(\s*)(:\W)(.*$)" 
     
     keys = [re.search(regex, line).group(1).strip() for line in lines]
