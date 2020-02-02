@@ -57,7 +57,7 @@ def logStatus(failed=True,verbose=True):
         status = f'+ {logTime}'
     if verbose:
         properties = f"\
-        \n\tAdapter         : {wifiProperties('Name')}\
+        \n\tAdapter          : {wifiProperties('Name')}\
         \n\tSSID             : {wifiProperties('SSID')}\
         \n\tSignal Strength  : {wifiProperties('Signal')}"
         status += properties
