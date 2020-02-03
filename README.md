@@ -1,3 +1,5 @@
+![Program](https://user-images.githubusercontent.com/8599598/73617749-036a7f00-45f0-11ea-9649-e56d921bec43.JPG)
+
 # Windows 10 Wi-Fi Logger and Resetter
 Displays connection status into terminal/log and disables and re-enable adapter if unable to ping Google
 in 20 seconds. 
